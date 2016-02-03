@@ -1,0 +1,71 @@
+/* CSS Document */
+*{padding:0;margin:0}
+body{font-size:16; background-color:#02517D; background-image:url(../images/background.gif);background-repeat:repeat-x;background-attachment:fixed}
+#Wrapper{-moz-border-radius:10px;-webkit-border-radius:10px;width:1000px;margin:10px auto;background-color:#FFFFFF}
+#Header{width:1000px;height:167px}
+#Banner{width:1000px;height:140px;background-image:url(../images/banner.JPG);position:relative}
+#name{font-size:40px;color:#FFFFFF;margin: 50px 0 0 150px;position:absolute;left: 2px;top: -1px}
+#name2{font-size:18px; color:#FFFF00;margin: 0 0 0 150px;position:absolute;top:90px}
+#Navigator{width:980px;height:19px;background-color:#0000CC;background-image:url(../images/navigator.JPG);background-repeat:repeat-x;padding:4px 0;padding-left:20px}
+#Navigator .login{float:right; color:#fff;margin-right:10px}
+#Navigator .login input{width:100px}
+#Navigator li{display:block;float:left;margin:0 10px 0 0;list-style:none;height:23px;width:100px;color:#FFFFFF;font-weight:bold;text-align:center}
+#Navigator li:hover{background-image:url(../images/navigator2.gif)}
+#Navigator a{display:block;height:23px;width:100px;text-decoration:none;color:#FFFFFF}
+#Navigator a:hover{background-image:none; background-color:#EAEAEA;color:#0066CC}
+#Content{width:1000px;background-color:#FFF}
+/*CSS cho slide*/
+#Slide{width:970px;height:350px;background-color:#fff;margin:15px 15px 0 15px;float:left;position:relative;border: 1px groove #999999}
+#Slide div{position:absolute;left:0; top:0;width:970px;height:350px}
+#Slide img{width:970px;height:350px}
+#Slide .thongbao{width:260px;height:310px;background-color:#DBDBDB;display:block;padding:10px;margin:10px;color:#333333;float:left;ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";filter: alpha(opacity=50); opacity:.5;}
+#Slide .thongbao:hover{;ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";filter: alpha(opacity=100);opacity:1;}
+#Slide .thongbao h2{display:block;color:#000000}
+/*CSS cho Sidebar*/
+#Sidebar{width:220px;background-color:#fff;margin:15px;float:left}
+#Sidebar .box{width:220px;margin-bottom:10px}
+#Sidebar .box_head{background-image:url(../images/box_head.jpg);height:24px;text-align:center;color:#fff;padding:4px 0}
+#Sidebar .box_content{width:220px;background-image:url(../images/box_content.jpg);background-repeat:repeat-y}
+#Sidebar .box_bottom{background-image:url(../images/box_bottom.jpg);height:10px;text-align:center;color:#fff}
+#Sidebar li{height: 25px;display:block;list-style:none; display:block; background-image:url(../images/navigator.JPG);color:#FFFFFF; margin:0px 10px 0px 10px;border:1px groove #FFFFFF}
+#Sidebar li:hover{background-image:none;border:1px groove #999999}
+#Sidebar a{text-decoration:none;color:#FFFFFF;display:block;height:33px;width:193px;padding-top:2px;padding-left:7px}
+#Sidebar a:hover{color:#0000CC}
+/*CSS cho sách doc nhieu nhat*/
+#Sach{width:220px;background-image:url(../images/box_content.jpg);background-repeat:repeat-y;height:460px}
+#Sach .sachbox{height:440px;width:220px}
+#Sach .sach{background-image:none; height:180px;text-align:center;margin:0 10px 0 10px;width:200px}
+#Sach a{color:#0000FF; text-decoration:none;text-align:center;display:block;height:180px;width:195px;font-size:18px}
+#Sach a:hover{color:#FF0000; text-decoration:underline; border: none}
+#Sach img{height:150px;width:120px}
+/*CSS cho trangchu*/
+#container_head{background-image:url(../images/container_head.jpg);height:28px;width:725px;margin:15px 19px 0 0;float:right;text-align:center;color:#fff; padding-top:4px}
+#Container{width:695px;margin:0px 20px 0px 0;float:left;padding:5px 15px 0 15px;background-image:url(../images/container_body.jpg);float:right}
+#container_bottom{background-image:url(../images/container_bottom.jpg);height:10px;width:725px;float:right;margin:0 19px 0 0}
+#Container li{display:block;float:left;margin:15px 10px 0px 10px;list-style:none;height:303px;width:150px;color:#FFFFFF;font-weight:bold;text-align:center}
+#Container img{height:185px ;width:140px}
+#Container a{text-decoration:none}
+#Container a:hover{color:#FF0000;text-decoration:underline}
+#Container p{color:#000;font-size:12px;font-weight:lighter}
+/*CSS cho tintuc*/
+#tintuc ul{margin: -20px -15px;margin-top:15px}
+#tintuc li{display:block;height:160px; width: 685px;padding:5px 10px;text-align:left;margin-top:0px}
+#tintuc img{float:left;height:150px;width:120px;margin-right:10px;background-color:#FFFFFF}
+#tintuc p{font-size:14px;display:block}
+#tintuc a{color:#0000FF;display:block;font-size:17px;}
+#tintuc h5{color:#ABABAB;display:block}
+#tintuc h4{color:#000}
+
+/*CSS cho sach muon*/
+#tintuc h6{color:#000;font-size:14px;display:block}
+#tintuc h3{color:#000000;font-size:18px;display:block}
+.sachmuon{border:groove 2px #C1DBF7;background-color:#E9F2FC;width:680px}
+
+/*CSS cho footer*/
+#Footer{width:1000px;height:30px;background-color:#003333;clear:both}
+
+
+ /*CSS cho ModelPopupExtender*/
+ .popup_head{width:400px;height:24px;background-image:url(../images/popup_head.jpg);text-align:center;color:#fff;;padding:4px 0}
+ .popup_content{width:390px;background-image:url(../images/popup_content.jpg);padding-left:10px}
+ .popup_bottom{width:400px;height:10px;background-image:url(../images/popup_bottom.jpg)}
